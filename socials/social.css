@@ -13,17 +13,19 @@ a {
     background-color: gray;
     color: white;
     font-weight: 900;
-    width: 100vw;
+    width: 227px;
     text-align: center;
     font-family: Arial;
     text-decoration: none;
     padding: 20px;
 }
 
-img {
-    width: 100vw;
-    /* height: 100vh; */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+a:hover {
+    text-shadow: 2px 2px 2px rgb(36, 33, 33);
+    text-decoration: underline;
 }
+
+img {
+    width: 100vw;   
+}
+
